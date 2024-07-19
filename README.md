@@ -7,5 +7,5 @@ When a live person is detected, the system checks for face matches against a dat
 Additionally, the system displays "UNLOCK" if a known user is detected and liveness is confirmed.
 The implementation leverages a convolutional neural network (CNN) for liveness detection and the face_recognition library for accurate face matching. 
 The project setup includes loading the liveness model weights, reading known user data, and configuring the video capture. 
-The main loop processes video frames for liveness and face recognition, updating the display with real-time results. 
+The Main loop processes video frames for liveness and face recognition, updating the display with real-time results. 
 This project is ideal for security applications where verifying the presence of live individuals is crucial.
